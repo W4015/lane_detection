@@ -17,6 +17,10 @@ import matplotlib.pyplot as plt
 import numpy as np
 import tensorflow as tf
 
+# import os
+# import sys
+# sys.path.append("/root/auto_driving/lanenet-lane-detection/lanenet_model")
+
 from lanenet_model import lanenet
 from lanenet_model import lanenet_postprocess
 from local_utils.config_utils import parse_config_utils
